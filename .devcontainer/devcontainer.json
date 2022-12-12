@@ -2,13 +2,15 @@
 // README at: https://github.com/devcontainers/templates/tree/main/src/python
 {
 	"name": "AdventOfCode2022-dev",
-	"image": "mcr.microsoft.com/devcontainers/python:3.11-bullseye",
+	"image": "mcr.microsoft.com/devcontainers/python:3.10-bullseye",
 	"features": {
-		"ghcr.io/devcontainers/features/conda:1": {},
 		"ghcr.io/devcontainers/features/git:1": {},
 		"ghcr.io/devcontainers/features/git-lfs:1": {},
 		"ghcr.io/devcontainers/features/github-cli:1": {},
-		"ghcr.io/devcontainers-contrib/features/isort:1": {}
+		"ghcr.io/devcontainers-contrib/features/mypy:1": {},
+		"ghcr.io/devcontainers-contrib/features/flake8:1": {},
+		"ghcr.io/devcontainers-contrib/features/ninja-asdf:1": {},
+		"ghcr.io/eitsupi/devcontainer-features/julia:0": {}
 	},
 	"extensions": [
 		"ms-python.python",
@@ -27,7 +29,9 @@
 		"eamodio.gitlens",
 		"donjayamanne.python-environment-manager",
 
-		"ms-vsliveshare.vsliveshare"
+		"ms-vsliveshare.vsliveshare",
+
+		"julialang.language-julia"
 	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.

@@ -1,15 +1,16 @@
-scipy==1.7.3
-pandas==1.4.2
+scipy==1.9.1
+pandas==1.5.2
+numpy==1.23.5
+einops==0.6.0
 
 matplotlib==3.5.1
 seaborn==0.11.2
 plotly==5.7.0
 kaleido==0.2.1
 
-mypy==0.910
-jedi==0.18.1
-ninja==1.10.2
+ipykernel==6.19.2
+nbformat==5.7.0
+nbconvert==7.2.6
 
-ipykernel
-
-einops==0.4.1
+pyflakes==3.0.1
+jedi==0.18.2
